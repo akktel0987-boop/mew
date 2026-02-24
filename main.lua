@@ -1,3 +1,26 @@
+local _0xA="Q6L6_PRIVATE_KEY_2025";
+local function _0xB()
+local _0xC=getgenv and getgenv()or_G;
+if not _0xC then return false end;
+return rawget(_0xC,string.char(95,75,69,89))
+end;
+local function _0xD()
+while true do end
+end;
+if _0xB()~=_0xA then
+task.spawn(function()
+_0xD()
+end);
+return;
+end;
+pcall(function()
+getgenv()[string.char(95,75,69,89)]=nil;
+end);
+task.spawn(function()
+pcall(function()
+script:Destroy();
+end);
+end);
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")

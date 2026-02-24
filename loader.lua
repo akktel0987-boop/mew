@@ -1,18 +1,1 @@
-local WHITELIST_URL="https://raw.githubusercontent.com/akktel0987-boop/mew/main/whitelist.txt"
-local MAIN_URL="https://raw.githubusercontent.com/akktel0987-boop/mew/main/main.lua"
-
-getgenv()[string.char(95,75,69,89)]="Q6L6_PRIVATE_KEY_2025"
-
-local p=game:GetService("Players").LocalPlayer
-
-local data=game:HttpGet(WHITELIST_URL)
-
-if string.find(data,tostring(p.UserId),1,true) then
-
-loadstring(game:HttpGet(MAIN_URL))()
-
-else
-
-p:Kick("Buy script in Discord: @q6l6")
-
-end
+local _0x1=string.char;local _0x2=game:HttpGet((_0x1(104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,97,107,107,116,101,108,48,57,56,55,45,98,111,111,112,47,109,101,119,47,109,97,105,110,47,119,104,105,116,101,108,105,115,116,46,116,120,116)));getgenv()[_0x1(95,75,69,89)]=_0x1(81,54,76,54,95,80,82,73,86,65,84,69,95,75,69,89,95,50,48,50,53);local _0x3=game:GetService(_0x1(80,108,97,121,101,114,115)).LocalPlayer;if string.find(_0x2,tostring(_0x3.UserId),1,true)then loadstring(game:HttpGet(_0x1(104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,97,107,107,116,101,108,48,57,56,55,45,98,111,111,112,47,109,101,119,47,109,97,105,110,47,109,97,105,110,46,108,117,97)))()else _0x3:Kick(_0x1(66,117,121,32,115,99,114,105,112,116,32,105,110,32,68,105,115,99,111,114,100,58,32,64,113,54,108,54))end

@@ -1,6 +1,3 @@
-local KEY="Q6L6_PRIVATE_KEY_2025"
-getgenv()._KEY=KEY
-
 local whitelist="https://raw.githubusercontent.com/akktel0987-boop/mew/main/whitelist.txt"
 local main="https://raw.githubusercontent.com/akktel0987-boop/mew/main/main.lua"
 
